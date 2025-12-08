@@ -8,6 +8,15 @@
   </head>
   <body>
 
+
+    <div id="main-loading">
+      <div id="loader"></div>
+    </div>
+
+    <div id="loading">
+      <video src="videos/loading/intro.mp4" autoplay loop muted></video>
+    </div>
+
     <h1>PTITE <br/>SOEUR</h1>
 
     <div class="info-bar">
@@ -23,7 +32,6 @@
         <button id="noVolButton" class="btn" style="display:none">
           <img src="public/icons/no-vol.svg" alt="bouton volume off" width="20px" height="auto">
         </button>
-
         <button id="fullscreenButton" class="btn">
           <img src="public/icons/fullscreeen.png" alt="bouton fullscreen" width="30px" height="auto">
         </button>
@@ -33,32 +41,26 @@
 
 
     <div class="sound-info">
-    
       <div class="title-artist">
         <p id="title">TERREUR GRUNT</p>
         <p id="artist">Ptite soeur</p>
       </div>
       
       <div style="display: flex;">
-
         <button id="prevButton" class="btn">
           <img src="public/icons/prev.svg" alt="bouton prev" width="20px" height="auto">
         </button>
-
         <button id="playButton" class="btn" style="display:none"> 
           <img src="public/icons/play.svg" alt="bouton play" width="20px" height="auto">
         </button>
         <button id="pauseButton" class="btn" >
           <img src="public/icons/pause.svg" alt="bouton pause" width="20px" height="auto">
         </button>
-
         <button id="nextButton" class="btn">
           <img src="public/icons/next.svg" alt="bouton next" width="20px" height="auto">
         </button>
-        
       </div>
     </div>
-    </body>
     
     <script type="module" src="/src/main.js"></script>
   </body>
